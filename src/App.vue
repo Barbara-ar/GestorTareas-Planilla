@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- Barra de navegación con iconos usando Bootstrap Icons -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Barra de navegación azul con iconos usando Bootstrap Icons -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <i class="bi bi-kanban-fill"></i> Gestor de Tareas
@@ -50,4 +50,17 @@
   text-align: center;
   color: #2c3e50;
 }
+
+.custom-navbar {
+  background-color: #007bff; /* Color azul personalizado */
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: white !important;
+}
 </style>
+
